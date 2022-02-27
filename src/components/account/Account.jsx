@@ -107,7 +107,7 @@ export default function Account({ session }) {
         }
     }
 
-    async function insertRecord({ title, content, reminder }) {
+    async function insertRecord({ title, content}) {
         if (recordID !== null && recordID !== "") {
             updateReminder();
         } else {
